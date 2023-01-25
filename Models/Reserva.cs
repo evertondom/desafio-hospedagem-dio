@@ -53,7 +53,7 @@ namespace DesafioProjetoHospedagem.Models
             // *IMPLEMENTE AQUI*
             if (DiasReservados >= 10)
             {
-                decimal percentual = 10 / 100;
+                decimal percentual = 10 / 100M;
                 valor = valor - (valor * percentual);
             }
 
